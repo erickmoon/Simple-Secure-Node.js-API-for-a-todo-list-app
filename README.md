@@ -72,7 +72,7 @@ A secure REST API for managing to-do lists, built with Node.js and PostgreSQL. T
    npm run dev
    ```
 
-   The server will start on `http://localhost:5000`.
+   The server will start on `http://localhost:5001` or whichever port number you set on PORT variable in your `.env` file.
 
 ## Usage
 
