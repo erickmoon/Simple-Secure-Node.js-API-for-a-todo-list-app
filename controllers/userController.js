@@ -34,14 +34,16 @@ const registerUser = async (req, res) => {
 
 const loginUser = async (req, res) => {
     const { email, password } = req.body;
-
+    
     if (!email || !password) {
+   
         return res.status(400).json({ message: "Email and password required" });
     }
 
     const user = await getUserByEmail(email);
 
     if (!user || !await bcrypt.compare(password, user.password)) {
+  
         return res.status(400).json({ message: "Invalid credentials" });
     }
 
