@@ -1,6 +1,8 @@
 # Secure To-Do List API
 
-A secure REST API for managing to-do lists, built with Node.js and PostgreSQL. This API supports user registration, login, and CRUD operations for to-do items. It uses JWT for authentication and bcrypt for password hashing.
+A secure REST API for managing to-do lists, built with Node.js and PostgreSQL.
+A frontend app that consumes this api is equally available and is located [here](https://github.com/erickmoon/secure-react-frontend-app)
+This API supports user registration, login, and CRUD operations for to-do items. It uses JWT for authentication and bcrypt for password hashing.
 
 ## Table of Contents
 
