@@ -66,15 +66,7 @@ A secure REST API for managing to-do lists, built with Node.js and PostgreSQL. T
    DB_NAME=your_db_name
    ```
 
-4. **Create the database schema:**
-
-   Run the SQL commands in `db/schema.sql` to set up the database tables:
-
-   ```bash
-   psql -U yourusername -d secure_todo_db -f db/schema.sql
-   ```
-
-5. **Start the server:**
+4. **Start the server:**
 
    ```bash
    npm run dev
