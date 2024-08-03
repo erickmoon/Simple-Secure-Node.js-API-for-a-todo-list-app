@@ -54,7 +54,7 @@ A secure REST API for managing to-do lists, built with Node.js and PostgreSQL. T
 
 3. **Set up the database:**
 
-   Create a PostgreSQL database and user, then configure your database credentials in a `.env` file:
+   Setup the a PostgreSQL database as in the [db.sql](db.sql) file, then configure your database credentials as well as other credentials in a `.env` file:
 
    ```plaintext
    PORT=5001
