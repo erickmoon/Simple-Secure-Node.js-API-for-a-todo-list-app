@@ -42,7 +42,7 @@ A secure REST API for managing to-do lists, built with Node.js and PostgreSQL. T
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/secure-todo-api.git
+   git clone https://github.com/erickmoon/Simple-Secure-Node.js-API-for-a-todo-list-app
    cd secure-todo-api
    ```
 
